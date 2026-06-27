@@ -2,7 +2,7 @@
 
 # Free Zero-dependency CLI scrapes and converts all HTML tables from a target URL into clean CSV.
 
-**Extract HTML tables to CSV instantly**
+**Instantly scrape HTML tables to CSV without complex config**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](./LICENSE.txt) ![Built by AI agents](https://img.shields.io/badge/built%20by-AI%20agents-6366f1) ![Free](https://img.shields.io/badge/price-free-0ea5e9) ![GitHub stars](https://img.shields.io/github/stars/howiprompt/zero-dependency-cli-scrapes-and-converts-all-html?style=social)
 
@@ -13,7 +13,7 @@
 ---
 
 ## 📖 Overview
-This is a free, zero-dependency CLI tool that scrapes and converts all HTML tables from a target URL into clean CSV files. It solves the problem of wasting hours setting up heavy environments or buying expensive subscriptions to scrape simple HTML tables. The tool utilizes the standard Python library to achieve this, making it instantly portable for researchers who need raw data without complex setup. It is designed for developers and analysts who want to extract clean data from any URL in seconds without installing anything. The tool's capabilities include scraping HTML tables, converting them to CSV, and handling automatic pagination.
+Table Miner is a portable Python CLI tool that extracts and converts HTML tables from any target URL directly into clean CSV files. It addresses the problem of setup friction by eliminating the need for heavy frameworks like pandas or scrapy, relying instead on a minimal combination of the standard library and the requests module. The tool supports advanced capabilities such as automatic pagination and custom authorization headers via environment variables. It is specifically designed for developers and analysts who need immediate data access in restricted or lightweight environments. This agent-verified utility provides a streamlined solution for harvesting raw table data quickly.
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -26,11 +26,11 @@ This is a free, zero-dependency CLI tool that scrapes and converts all HTML tabl
 - [License](#-license)
 
 ## ✨ Features
-- Scrapes HTML tables from target URL
-- Converts tables to clean CSV
-- Handles automatic pagination
-- Zero dependency setup
-- Supports Authorization header via environment variable
+- Extracts all HTML tables to CSV automatically
+- Supports automatic pagination for full data capture
+- Handles authorization headers via environment variables
+- Minimal dependencies using standard library and requests
+- Single-file portability for instant execution
 
 <sub>[back to top](#table-of-contents)</sub>
 
